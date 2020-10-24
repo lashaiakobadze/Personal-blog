@@ -1,0 +1,229 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+*{
+    font-family:"Noto Sans TC",normal;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color:#FBE4CE;
+}
+
+header nav {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+header nav aside{
+    height: 100%;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    padding:0;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+}
+
+header nav ul li{
+    margin: 0 12px;
+    font-size: 17px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(44,44,44);
+}
+
+main .banner-area{
+    padding: 40px 0 0 0;
+}
+
+main .banner-area p{
+    text-align: center;
+    letter-spacing:  2.5px;
+    font-size: 10px;
+}
+
+main .banner-area h1{
+    text-align: center;
+    letter-spacing: 15px;
+    font-family: none;
+    color: rgb(55,55,55);
+    font-size: 55px;
+}
+
+main .banner-area img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+main .cards-area{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .cards-area .card{
+    width: 30%;
+    margin-top: 130px;
+    min-width: 300px;
+    height: 300px;
+    background: url("./Assets/14409497_1067763006626241_7696804768957502644_o.jpg");
+    background-size: cover;
+}
+
+main .cards-area .card div{
+    width: 75%;
+    margin: auto;
+    margin-top: 70%;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #FBE4CE;
+}
+
+main .cards-area .card div h2{
+    margin-bottom: 7px;
+}
+
+main .cards-area .card div a{
+    text-decoration: none;
+    color:rgb(33,33,33);
+    font-size: 15px;
+}
+
+main .card hr{
+    width: 20px;
+    border-color: black;
+    margin-top:15px;
+}
+
+.post-area{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.post-area .left{
+    width: 70%;
+    min-width: 400px;
+}
+
+.post-area .right{
+    width: 24%;
+    min-width: 300px;
+
+}
+
+.big-post{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.big-post img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.post-content{
+    padding: 30px 30px 30px 50px;
+}
+
+.post-content .top{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.post-content .top p{
+    margin: 3px 0 2px 0;
+    font-size: 13px;
+    color:rgb(55,55,55);
+}
+
+.post-content .top span{
+    font-size: 12px;
+    color: rgb(100,100,100);
+}
+
+.post-content .fa-user-circle{
+    font-size: 40px;
+    color: rgb(140,140,140);
+}
+
+.post-info{
+    text-decoration: none;
+}
+
+.post-info h3{
+    color: rgb(23,23,23);
+    font-size: 27px;
+    font-family: none;
+    margin: 7px 0 7px 0;
+}
+
+.post-info p{
+    color: rgb(100,100,100);
+    margin-top: 3px;
+}
+
+.coment-like{
+    display: flex;
+    justify-content: space-between;
+}
+
+.coment-like p{
+    font-size: 14px;
+    color: rgb(140,140,140);
+    margin-top: 0;
+}
+
+.coment-like  a{
+    font-size: 14px;
+    color: rgb(140,140,140);
+    text-decoration: none;
+}
+
+.coment-like i{
+    color: red;
+    font-size: 15px;
+}
+
+.small-post{
+    width: 100%;
+}
+.small-post img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.small-post .description{
+    padding: 15px 25px;
+    color: rgb(55,55,55);
+    background-color: rosybrown;
+}
+
+.image-gallery{
+    width: 100%;
+    display: flex;
+}
+
+.image-gallery img{
+    width: 20%;
+    height: 250px;
+    object-fit: cover;
+}
